@@ -1,0 +1,103 @@
+		html,
+		body {
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		
+		table {
+			height: 100%;
+			width: 100%;
+			text-align: center;
+			border-collapse: collapse;
+		}
+		
+		td {
+			padding: 0;
+		}	
+    
+		.firsttd {
+			background-color: black;
+			position: relative;
+		}
+		
+		.secondtd {
+			height: 45%;
+			position: absolute;
+			top: calc(5% + 0%);
+			left: 4%;
+			right: 4%;
+			background-image: url("https://img-www.tf-cdn.com/artist/10/arctic-monkeys.jpeg?_v=20220901123007&fit=crop&crop=faces%20entropy&w=880&h=440");
+            background-size: cover;
+            background-position: center;
+		}
+		
+		h1 {
+           font-size: 20px;
+        }
+
+        h2 {
+           font-size: 20px;
+        }
+		
+		.circle {
+			border-radius: 50%;
+			width: 7%;
+			padding-top: 7%;
+			background-color: black;
+			margin: 0 auto;
+			margin-top: 1%;
+			background-image: url('https://seeklogo.com/images/A/arctic-monkeys-logo-9E45743690-seeklogo.com.png');
+			background-size: cover;
+		}
+		
+		.thirdtd {
+			height: 38%;
+			background-color: #DAF7A6;
+			position: absolute;
+			top: calc(55% + 0%);
+			left: 4%;
+			width: 28%;
+		}
+		
+		iframe {
+		  width:92%; 
+		  height:92%;
+		  margin: auto 0;
+		  padding-top:2.5%;
+		}
+		
+		.fourthtd {
+			height: 38%;
+			background-color: #CCCCFF;
+			position: absolute;
+			top: calc(55% + 0%);
+			left: 36%;
+			width: 28%;
+		}
+		
+		p {
+		  font-size:110%;
+		  margin: auto 0;
+		  margin-left:4%;
+		  margin-right:4%;
+		  margin-top:4%;
+		  color:black;
+		}
+		
+		.fifthtd {
+			height: 38%;
+			background-color: #9FE2BF;
+			position: absolute;
+			top: calc(55% + 0%);
+			left: 68%;
+			width: 28%;
+		}
+		
+		img {
+		  width:92%; 
+		  height:92%;
+		  margin: auto 0;
+		  padding-top:2.5%;
+		}
